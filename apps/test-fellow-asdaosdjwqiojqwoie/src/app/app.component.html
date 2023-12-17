@@ -2,7 +2,21 @@
   (sideNavToggle)="sideNavToggle()"
 ></test-fellow-asdaosdjwqiojqwoie-global-header>
 <div class="wrapper">
-  <div class="container"></div>
+  <div class="container">
+    <test-fellow-asdaosdjwqiojqwoie-global-sidenav [opened]="sideNavOpen">
+      <mat-nav-list sidenav>
+        <a
+          mat-list-item
+          routerLinkActive="active-link"
+          routerLink="/"
+          (click)="sideNavToggle()"
+        >
+          <span class="App__sidenav-text">Home</span>
+        </a>
+      </mat-nav-list>
+      <router-outlet></router-outlet>
+    </test-fellow-asdaosdjwqiojqwoie-global-sidenav>
+  </div>
 </div>
 <test-fellow-asdaosdjwqiojqwoie-global-footer>
 </test-fellow-asdaosdjwqiojqwoie-global-footer>
