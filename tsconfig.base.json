@@ -20,6 +20,9 @@
     "paths": {
       "@test-fellow-asdaosdjwqiojqwoie/common/styles": [
         "libs/common/styles/src/index.ts"
+      ],
+      "@test-fellow-asdaosdjwqiojqwoie/common/ui": [
+        "libs/common/ui/src/index.ts"
       ]
     }
   },
