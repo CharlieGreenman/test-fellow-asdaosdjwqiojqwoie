@@ -23,6 +23,9 @@
       ],
       "@test-fellow-asdaosdjwqiojqwoie/common/ui": [
         "libs/common/ui/src/index.ts"
+      ],
+      "@test-fellow-asdaosdjwqiojqwoie/home": [
+        "libs/home/src/index.ts"
       ]
     }
   },
